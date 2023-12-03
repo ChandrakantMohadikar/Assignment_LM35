@@ -1,6 +1,6 @@
+//LM35 temperature sensor with an Arduino Uno.
 #include <TimerOne.h>
 
-//LM35 temperature sensor with an Arduino Uno.
 #define LM35_pin A0 //LM35 connected on Analog A0 pin
 #define ledPin 13 // Onboard LED pin
 
