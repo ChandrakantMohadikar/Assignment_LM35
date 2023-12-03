@@ -22,6 +22,7 @@ void loop() {
   //convert the Read value from sensor to Temp value
   float TempValue = Readvalue * (5.0 / 1024.0);
 
+  // Convert the voltage into the temperature in Celsius
   temperature = TempValue * 100;
 
   //if temperature less than 30 
