@@ -9,5 +9,9 @@ blink every 250 milliseconds.
 3. If the temperature rises above 30 degrees Celsius, make the onboard LED blink
 every 500 milliseconds.
 
-Note :- You are not supposed use Millis(), delay() and micros() function and you can
+Note :- 
+1. You are not supposed use Millis(), delay() and micros() function and you can
 use any library to perform this task.
+2. Make sure to install the TimerOne library in your Arduino IDE before compiling and uploading the code to your Arduino Uno. 
+
+
