@@ -24,9 +24,12 @@ void loop() {
 
   temperature = TempValue * 100;
 
+  //if temperature less than 30 
   if (temperature < 30.0) {
     Timer1.setPeriod(250000); // Set Timer1 interval to 250 milliseconds (250,000 microseconds)
-  } else {
+  } 
+  //if temperature greater than or equal to 30 
+  else {
     Timer1.setPeriod(500000); // Set Timer1 interval to 500 milliseconds (500,000 microseconds)
   }
 }
